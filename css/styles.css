@@ -1,0 +1,107 @@
+:root {
+    --font-principal: "Poppins";
+    --cor-background: #222831; 
+    --cor-secundaria-background: #393E46; 
+    --cor-principal: #00ADB5; 
+    --cor-texto: #EEEEEE; 
+  }
+  
+  * {
+    font-family: var(--font-principal);
+    color: var(--cor-texto);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: var(--cor-background);
+  }
+  
+.container,
+.container-md {
+    background-color: var(--cor-secundaria-background);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+    color:var(--cor-principal) !important;
+  }
+  
+p {
+    color: var(--cor-texto);
+  }
+  
+.navbar {
+    background-color: rgb(31, 26, 26) !important;
+  }
+
+.navbar-toggler {
+    box-shadow: none !important;
+    background-color: var(--cor-principal);
+}
+
+.navbar-toggler  {
+    box-shadow: none !important;
+    background-color: var(--cor-principal);
+}
+  
+.navbar-brand, .nav-link {
+    color: var(--cor-principal);
+}
+  
+.navbar-brand:hover {
+    color: var(--cor-principal);
+}
+  
+  
+.nav-link:hover {
+    color: var(--cor-texto);
+}
+
+button {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    border: none;
+    transition: 0.7s;
+}
+  
+  button:hover {
+    background-color: var(--cor-texto);
+    color: var(--cor-principal);
+    transition: 0.7s;
+}
+  
+.accordion-item, .card {
+    background-color: var(--cor-secundaria-background);
+    border: none;
+}
+  
+.accordion-button {
+    color: var(--cor-texto);
+    background-color: var(--cor-principal);
+}
+  
+.accordion-button:not(.collapsed) {
+    background-color: var(--cor-principal);
+    color: var(--cor-background);
+}
+  
+.imagem-tamanho {
+    width: 50%;
+}
+  
+.secao-robo-img img {
+    width: 20%;
+}
+  
+.hover-animation {
+    transition: 2s;
+}
+  
+.hover-animation:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+  

@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+  <!-- Link fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title> Laika </title>
+</head>
+
+<body>
+  <!-- Navbar --->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4 p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LAIKA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#robo">Robô</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Hardware">Hardware</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#arma">Arma</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#equipe">Equipe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fim Navbar --->
+
+  <!-- Seção sobre robô --->
+
+  <section id="robo" class="row mx-2 p-md-2">
+    <div class="col-md-6">
+
+      <h1 class="text-center"> Sobre o nosso robô</h1>
+      <p class="">O robô "Laika" foi nomeado em homenagem à cadela que, em 1957, se tornou o primeiro ser vivo a orbitar
+        a Terra, a bordo do satélite soviético Sputnik 2. Laika simboliza coragem, pioneirismo e a disposição de
+        explorar o desconhecido, qualidades que buscamos refletir em nosso projeto. Nosso grupo, chamado "Spuntnik",
+        também se inspirou no satélite Sputnik, um marco da história espacial que deu início à era de exploração fora da
+        Terra. Para reforçar essa conexão, decoramos o robô Laika com um design que remete aos satélites, como forma de
+        simbolizar nossa admiração pela história da exploração espacial e nosso desejo de ultrapassar limites. Assim
+        como a Laika original explorou territórios inexplorados, nosso robô está preparado para enfrentar desafios e
+        romper fronteiras, honrando a memória daqueles que ousaram ir além.</p>
+    </div>
+
+    <!-- DIV Curiosidades  --->
+
+    <div class="col-md-6 secao-robo-curiosidade  mt-2 mb-2">
+      <h2> Curiosidades </h2>
+      <!-- Accordion detalhes  --->
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Laika
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p> Laika foi a primeira criatura viva a orbitar a Terra. Em 3 de novembro de 1957, a cadela foi enviada
+                ao espaço pela União Soviética a bordo do Sputnik 2, tornando-se um símbolo de coragem e sacrifício na
+                exploração espacial. Embora a missão de Laika tenha sido curta, seu legado continua a inspirar
+                cientistas e engenheiros ao redor do mundo. </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Sputnik
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lançado em 4 de outubro de 1957, o Sputnik 1 foi o primeiro satélite artificial a orbitar a Terra,
+                marcando o início da era espacial. Este feito histórico colocou a União Soviética na vanguarda da
+                corrida espacial e abriu as portas para futuras missões e descobertas além do nosso planeta. O nome do
+                nosso grupo, Spuntnik, é uma homenagem a este marco tecnológico.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Explorando o Futuro
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>A robótica desempenha um papel crucial na exploração espacial moderna. Desde sondas que exploram
+                planetas distantes até robôs que ajudam a construir e manter estações espaciais, a robótica permite que
+                a humanidade alcance novos horizontes e supere desafios que seriam impossíveis para os seres humanos.
+                Nosso robô, Laika, simboliza essa conexão entre passado e futuro, combinando a história da exploração
+                espacial com a inovação tecnológica.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fim Accordion detalhes  --->
+
+  </section>
+
+  <!-- img robô  --->
+  <section class="container mt-5 mb-5">
+    <h2 class="text-center mb-3"> Imagens do robô </h2>
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <img src="./img/robo/robo00.webp" alt="foto frontal do robô não pintado com seus componentes expostos sem a arma instalada" class="rounded img-fluid mx-auto d-block">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <img src="./img/robo/robo.webp" alt="foto superior do robô não pintado com seus componentes expostos sem a arma instalada" class="rounded img-fluid mx-auto d-block">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <img src="./img/robo/robo1.webp" alt="foto superior do robô não pintado com seus componentes expostos" class="rounded img-fluid mx-auto d-block">
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <img src="./img/robo/robo2.webp" alt="foto lateral do robô pintado na cor cinza com a arma ativada"
+          class="rounded img-fluid mx-auto d-block">
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <img src="./img/robo/robo3.webp" alt="foto superior do robô pintado na cor cinza com a arma ativada"
+          class="rounded img-fluid mx-auto d-block">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Seção Arma  --->
+  <section id="arma" class="container-md mt-5 mb-5">
+    <h3 class="text-center">Funcionamento da Arma </h3>
+    <p>A arma do robô é formada por dois b raços feitos com palitos de churrasco que possuem bolas de isopor nas pontas.
+      A arma é acionada pela chave fim de curso que mandam o sinal para os motores onde a arma foi posicionada
+      realizando um movimento semelhante ao de um braço humano. O objetivo é gerar um impacto direcionado para estourar
+      o balão do adversário. Quando ativada, a arma balança rapidamente para frente, atingindo o alvo com precisão. O
+      design simples, mas eficaz, permite que o robô ataque de maneira rápida e controlada, maximizando a chance de
+      sucesso na competição, sem comprometer a estabilidade ou o controle do robô.</p>
+
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <img src="./img/arma/arma-1.webp"
+          alt="foto superior de um palito de churrasco com uma bola de isopor na sua ponta"
+          class="rounded img-fluid mx-auto d-block">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <img src="./img/arma/arma-2.webp"
+          alt="foto lateral de um palito de churrasco com uma bola de isopor na sua ponta"
+          class="rounded img-fluid mx-auto d-block">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <img src="./img/arma/arma-3.webp" alt="foto lateral do robô pintado na cor cinza com a arma ativada"
+          class="rounded img-fluid mx-auto d-block">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Fim seção arma  --->
+
+  <!-- Seção Hardware  --->
+  <section id="Hardware" class="container-md mx-auto">
+    <h2 class="text-center mb-3">Hardware necessário para a montagem do robô</h2>
+    <div class="container">
+      <div class="row">
+        <!-- Arduino -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./img/pecas/Arduino.webp" class="card-img-top" alt="Placa Arduino Uno">
+            <div class="card-body">
+              <h5 class="card-title">Arduino</h5>
+              <p class="card-text">O Arduino é uma plataforma de prototipagem eletrônica de código aberto, que facilita
+                a criação de projetos interativos. Ele é amplamente utilizado por iniciantes e profissionais para
+                desenvolver dispositivos como sensores, atuadores e sistemas automatizados, graças à sua facilidade de
+                uso e vasta comunidade de suporte.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shield -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./img/pecas/shield.webp" class="card-img-top" alt="Placa Shield arduino">
+            <div class="card-body">
+              <h5 class="card-title">Shield</h5>
+              <p class="card-text">Os shields para Arduino são placas de expansão que se encaixam diretamente na placa
+                principal, adicionando funcionalidades como conectividade Wi-Fi, controle de motores, GPS, entre outros.
+                Eles permitem que os desenvolvedores ampliem as capacidades do Arduino de forma modular e simplificada,
+                sem a necessidade de complexos circuitos adicionais.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Motor DC -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./img/pecas/motordc.webp" class="card-img-top" alt="Motor amarelo utilizado no robô">
+            <div class="card-body">
+              <h5 class="card-title">Motor DC</h5>
+              <p class="card-text">O motor DC é um tipo de motor elétrico que converte energia elétrica em energia
+                mecânica através da rotação de um eixo. Comumente utilizado em projetos de robótica e automação, o motor
+                DC é popular por sua simplicidade de controle e eficiência. Ele é ideal para aplicações que requerem
+                movimento contínuo ou controle preciso de velocidade.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fita LED -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./img/pecas/fitaled.webp" class="card-img-top" alt="Fita Led rgb utilizada para iluminar o robô">
+            <div class="card-body">
+              <h5 class="card-title">Fita LED</h5>
+              <p class="card-text">A fita LED é um componente versátil e eficiente usado para iluminação e decoração.
+                Consiste em uma sequência de pequenos LEDs montados em uma fita flexível, que pode ser cortada e
+                ajustada conforme necessário. Disponível em várias cores e intensidades, a fita LED é ideal para criar
+                efeitos de iluminação personalizados em ambientes internos e externos.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LED difuso -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./img/pecas/leddifuso.webp" class="card-img-top" alt="Led difuso">
+            <div class="card-body">
+              <h5 class="card-title">LED difuso</h5>
+              <p class="card-text">O LED difuso é um tipo de LED que emite luz de maneira suave e uniforme, graças à sua
+                capa fosca que dispersa a luz. Ao contrário dos LEDs tradicionais, que produzem um feixe de luz focado,
+                os LEDs difusos são ideais para aplicações onde se deseja uma iluminação mais suave e espalhada, como em
+                displays, indicadores visuais e projetos decorativos.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chave fim de curso -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./img/pecas/chavefimcurso.webp" class="card-img-top" alt="chave fim de curso">
+            <div class="card-body">
+              <h5 class="card-title">Chave fim de curso</h5>
+              <p>A chave fim de curso é um componente eletromecânico que detecta a posição final de um movimento em
+                sistemas automatizados. Ela interrompe o circuito ou envia um sinal quando uma parte móvel atinge um
+                ponto predeterminado. É usada em robótica, esteiras e controle de portas para garantir precisão e
+                segurança nos sistemas automáticos.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção equipe  --->
+  <section id="equipe" class="container-md mt-5 mb-5">
+
+    <h4 class="text-center mb-5"> Equipe Responsavel pelo projeto</h4>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./img/equipe/ana.webp" class="card-img-top" alt="foto da membro Anna Gonzales Biadola da equipe">
+          <div class="card-body">
+            <p class="card-text">Anna Gonzales</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./img/equipe/Carol.webp" class="card-img-top" alt="foto da membro Carol Biadola da equipe">
+          <div class="card-body">
+            <p class="card-text">Carolina Biadola</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./img/equipe/Enzo.webp" class="card-img-top" alt="foto do membro Enzo Luchini da equipe">
+          <div class="card-body">
+            <p class="card-text">Enzo Luchini</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Seção equipe 2 row  --->
+
+
+    <div class="row justify-content-center mt-md-5">
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card">
+          <img src="./img/equipe/julia.webp" class="card-img-top" alt="foto da membro Julia Dutra da equipe">
+          <div class="card-body">
+            <p class="card-text">Julia Dutra</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card">
+          <img src="./img/equipe/Renan.webp" class="card-img-top" alt="foto do membro Renan Lopes da equipe">
+          <div class="card-body">
+            <p class="card-text">Renan Lopes</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Fim Seção equipe  --->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
