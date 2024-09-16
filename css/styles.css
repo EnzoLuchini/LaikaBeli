@@ -47,12 +47,12 @@ p {
 }
   
 .navbar-brand:hover {
-    color: var(--cor-principal) !important;
+    color: var(--cor-texto) !important;
 }
   
   
 .nav-link:hover {
-    color: var(--cor-texto);
+    color: var(--cor-texto) !important;
 }
 
 button {
