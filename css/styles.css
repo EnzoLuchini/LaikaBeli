@@ -41,18 +41,13 @@ p {
     box-shadow: none !important;
     background-color: var(--cor-principal);
 }
-
-.navbar-toggler  {
-    box-shadow: none !important;
-    background-color: var(--cor-principal);
-}
   
 .navbar-brand, .nav-link {
-    color: var(--cor-principal);
+    color: var(--cor-principal) !important;
 }
   
 .navbar-brand:hover {
-    color: var(--cor-principal);
+    color: var(--cor-principal) !important;
 }
   
   
