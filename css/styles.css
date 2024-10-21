@@ -37,6 +37,11 @@ p {
     background-color: rgb(31, 26, 26) !important;
   }
 
+.navbar-nav {
+    margin-left: auto !important; /* Adiciona uma margem automática à esquerda para empurrar o menu à direita */
+}
+
+
 .navbar-toggler {
     box-shadow: none !important;
     background-color: var(--cor-principal);
@@ -68,6 +73,19 @@ button {
     transition: 0.7s;
 }
   
+.carousel-item img {
+  max-height: 500px; /* Limita a altura máxima das imagens */
+  object-fit:contain;  /* Garante que a imagem seja cortada, não distorcida */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  transition: none !important;
+}
+
+
 .accordion-item, .card {
     background-color: var(--cor-secundaria-background);
     border: none;
@@ -99,4 +117,36 @@ button {
     transform: scale(1.2);
     transition: 1s;
 }
-  
+
+.botao-Conta {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto);
+  border: none;
+  transition: 0.7s;
+}
+
+.botao-Conta:hover {
+  background-color: var(--cor-texto);
+  color: var(--cor-principal);
+  transition: 0.7s;
+}
+
+footer .bi {
+  font-size: 1.8rem; 
+  transition: transform 0.3s ease; 
+}
+
+footer .bi:hover {
+  transform: scale(1.2); 
+  color: var(--cor-principal);
+}
+
+footer a {
+  margin-right: 15px; 
+  color: #EEEEEE;
+  text-decoration: none !important; 
+}
+
+footer a:hover {
+  color: var(--cor-principal);
+}
