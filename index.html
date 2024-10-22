@@ -34,7 +34,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto"> <!-- Use 'ml-auto' para Bootstrap 4 -->
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#robo">Robô</a>
           </li>
@@ -43,6 +43,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Hardware">Hardware</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videos">Vídeos</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="#next-robocup">NEXT</a>
           </li>  
           <li class="nav-item">
             <a class="nav-link" href="#equipe">Equipe</a>
@@ -58,19 +64,15 @@
 
   <!-- Seção Laika --->
 
-  <section id="laika" class="row mx-2 p-md-2">
-    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
-
-        <h1>Sobre o nosso robô</h1>
-        <p>O robô "Laika" foi nomeado em homenagem à cadela que, em 1957, se tornou o primeiro ser vivo a orbitar a Terra no satélite soviético Sputnik 2. Laika simboliza coragem e pioneirismo, qualidades que refletimos em nosso projeto. Nosso grupo, "Spuntnik", também se inspirou no satélite Sputnik, um marco da exploração espacial. Decoramos o robô Laika com um design que remete aos satélites, honrando a história da exploração e o desejo de ultrapassar limites. Assim como a Laika original, nosso robô está preparado para enfrentar desafios e romper fronteiras.</p>
-    </div>
-</section>
-
-
-
+   <section id="laika" class="container-md mt-5 mb-5">
+        <div class="d-flex flex-column justify-content-center   text-center">
+            <h1> Sobre o nosso robô</h1>
+            <p>O robô "Laika" foi nomeado em homenagem à cadela que, em 1957, se tornou o primeiro ser vivo a orbitar a Terra no satélite soviético Sputnik 2. Laika simboliza coragem e pioneirismo, qualidades que refletimos em nosso projeto. Nosso grupo, "Spuntnik", também se inspirou no satélite Sputnik, um marco da exploração espacial. Decoramos o robô Laika com um design que remete aos satélites, honrando a história da exploração e o desejo de ultrapassar limites. Assim como a Laika original, nosso robô está preparado para enfrentar desafios e romper fronteiras.</p>
+        </div>
+   </section>
 
   <!-- img robô  --->
-  <section id="robo" class="container mt-5 mb-5">
+   <section id="robo" class="container mt-5 mb-5">
     <h2 class="text-center mb-3">Imagens do robô</h2>
   
     <div id="carouselRobo" class="carousel slide" data-bs-ride="carousel">
@@ -89,7 +91,7 @@
         </div>
         <div class="carousel-item">
           <img src="./img/robo/robo3.webp" alt="foto superior do robô pintado na cor cinza com a arma ativada" class="d-block w-100 rounded img-fluid">
-        </div>
+        </div> 
       </div>
   
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselRobo" data-bs-slide="prev">
@@ -140,7 +142,6 @@
   
   </section>
 
-  <!-- Fim seção arma  --->
 
   <!-- Seção Hardware  --->
 <section id="Hardware" class="container-md mx-auto">
@@ -219,7 +220,7 @@
 </section>
 
 <!--  seção vídeo robô  --->
-<section class="container-md mt-5 mb-5">   
+<section id="videos" class="container-md mt-5 mb-5">   
     <h2 class="my-5 display-4">Vídeos</h2>
         <div class="row">
             <div class="col-md-6 my-4">
@@ -229,12 +230,86 @@
             </div>
             <div class="col-md-6 my-4">
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/xOXeoqtO2mQ?si=4lmrhurKZuicDGK6" title="YouTube video" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/HYJL_qgWWWw?si=aAWMl8GNHyxEFdgU" title="YouTube video" allowfullscreen></iframe>
                   </div>
             </div>
         </div>
 </section>
 <!-- fim seção vídeo robô  --->
+
+<!-- Seção Fiap Next  --->
+<section id="next-robocup" class="container-md mt-5 mb-5 text-center">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-12">
+                <h2 class="text-uppercase texto-robocup">NEXT FIAP Festival</h2>
+                <h3 class="lead mb-4"><strong>O Festival de Tecnologia e Inovação da FIAP</strong></h3>
+                <p>
+                   O NEXT da FIAP é um evento significativo que reúne especialistas e estudantes para explorar inovações e tendências em tecnologia. Com palestras de líderes do setor, os participantes têm a oportunidade de ouvir insights valiosos sobre o futuro das diversas áreas. Os workshops práticos incentivam a aplicação de conceitos em situações reais, promovendo o desenvolvimento de habilidades essenciais. 
+                </p>
+            </div>
+            <div id="carouselNext" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/fiap/fiapnext.jpg" class="d-block w-100" alt="Varias pessoas conversando em uma área com luzes">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fiap/fiapnext1.png" class="d-block w-100" alt="Uma foto de uma vista superior do evento com os -stands- do evento">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fiap/fiapnext2.jpg" class="d-block w-100" alt="Varias pessoas do palco recebendoa a premiação do evento">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNext" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselNext" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- RoboCup -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-uppercase texto-robocup">RoboCup</h2>
+                <h3 class="lead mb-4"><strong>A Competição de Robôs da FIAP</strong></h3>
+                <p>
+                    Dois Robôs de equipes distintas se enfrentam durante 2 minutos para que haja o combate, onde o objetivo é estourar o balão dos adversários dentro de uma arena. O robô que manter seu balão intacto será o vencedor. O projeto visa desenvolver a capacidade de trabalho em equipe e aplicar conhecimentos práticos como eletrônica, programação e documentação.
+                </p>
+                <p>
+                    Alunos do 1° ano de Sistemas de Informação constroem robôs para participar dos duelos, onde devem estourar o balão adversário e recolher a arma, garantindo a vitória ao seguir as regras.
+                </p>
+            </div>
+            <!-- Imagens da RoboCup -->
+            <div id="carouselRoboCup" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/fiap/robocup.png" class="d-block w-100" alt="Uma arena circular metálica com dois robôs batalhando">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fiap/robocup1.jpg" class="d-block w-100" alt="Uma menor quantidade pessoas assistindo a dois robôs batalhando.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fiap/robocup2.jpg" class="d-block w-100" alt="Várias pessoas em volta de uma arena circular assistindo a dois robôs batalhando.">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRoboCup" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRoboCup" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
 
  <!-- Seção equipe  --->
 <section id="equipe" class="container-md mt-5 mb-5">
@@ -249,7 +324,8 @@
                       <div class="card">
                           <img src="./img/equipe/ana.webp" class="card-img-top" alt="foto da membro Anna Gonzales Biadola da equipe">
                           <div class="card-body">
-                              <p class="card-text">Anna Gonzales</p>
+                              <p class="card-text"><strong>Anna Gonzales</strong></p>
+                              <p class="card-text">Responsavel pelos desenhos e design do robô</p>
                           </div>
                       </div>
                   </div>
@@ -262,7 +338,8 @@
                       <div class="card">
                           <img src="./img/equipe/Carol.webp" class="card-img-top" alt="foto da membro Carol Biadola da equipe">
                           <div class="card-body">
-                              <p class="card-text">Carolina Biadola</p>
+                            <p class="card-text"><strong>Carolina Biadola</strong></p>
+                            <p class="card-text"> Responsavel pela Documentação</p>
                           </div>
                       </div>
                   </div>
@@ -275,7 +352,8 @@
                       <div class="card">
                           <img src="./img/equipe/Enzo.webp" class="card-img-top" alt="foto do membro Enzo Luchini da equipe">
                           <div class="card-body">
-                              <p class="card-text">Enzo Luchini</p>
+                              <p class="card-text"><strong>Enzo Luchini</strong></p>
+                              <p class="card-text">Responsavel pela compra dos componentes e programação</p>
                           </div>
                       </div>
                   </div>
@@ -288,7 +366,8 @@
                       <div class="card">
                           <img src="./img/equipe/julia.webp" class="card-img-top" alt="foto da membro Julia Dutra da equipe">
                           <div class="card-body">
-                              <p class="card-text">Julia Dutra</p>
+                              <p class="card-text"><strong>Julia Dutra</strong></p>
+                              <p class="card-text"> Responsavel pela Documentação</p>
                           </div>
                       </div>
                   </div>
@@ -301,7 +380,8 @@
                       <div class="card">
                           <img src="./img/equipe/Renan.webp" class="card-img-top" alt="foto do membro Renan Lopes da equipe">
                           <div class="card-body">
-                              <p class="card-text">Renan Lopes</p>
+                              <p class="card-text"><strong>Renan Lopes</strong></p>
+                              <p class="card-text"> Responsavel pela montagem do robô</p>                              
                           </div>
                       </div>
                   </div>
@@ -330,14 +410,14 @@
         <div class="row">
             <div class="col-6 my-3">
                 <label for="usuario" class="form-label">Nome</label>
-                <input type="text" id="usuario" name="usuario" class="form-control" placeholder="User"
+                <input type="text" id="usuario" name="usuario" class="form-control" placeholder="João"
                     minlength="10" maxlength="20" required>
             </div>
 
             <div class="col-md-6 my-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" id="email" name="email" class="form-control"
-                    placeholder="email@gmail.com" maxlength="50" required>
+                    placeholder="joao@gmail.com" maxlength="50" required>
             </div>
 
             <div class="col-md-4 my-3">

@@ -38,7 +38,7 @@ p {
   }
 
 .navbar-nav {
-    margin-left: auto !important; /* Adiciona uma margem automática à esquerda para empurrar o menu à direita */
+    margin-left: auto !important; 
 }
 
 
@@ -74,8 +74,8 @@ button {
 }
   
 .carousel-item img {
-  max-height: 500px; /* Limita a altura máxima das imagens */
-  object-fit:contain;  /* Garante que a imagem seja cortada, não distorcida */
+  max-height: 500px;
+  object-fit:contain; 
 }
 
 .carousel-control-prev:hover,
@@ -116,6 +116,10 @@ button {
 .hover-animation:hover {
     transform: scale(1.2);
     transition: 1s;
+}
+
+.texto-robocup{
+  color: var(--cor-principal);
 }
 
 .botao-Conta {
